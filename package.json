@@ -10,7 +10,10 @@
     "demo": "browser-sync --ss demo --port 5174"
   },
   "devDependencies": {
-    "vite": "^4.3.9",
-    "browser-sync": "^2.29.3"
+    "browser-sync": "^2.29.3",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "lodash.sample": "^4.2.1"
   }
 }

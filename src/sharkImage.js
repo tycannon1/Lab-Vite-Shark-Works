@@ -7,4 +7,7 @@ import guess5 from './images/guess5.png';
 
 const images = [guess0, guess1, guess2, guess3, guess4, guess5];
 
-function setSharkImage(element, imageIdx) {}
+function setSharkImage(element, imageIdx) {
+    element.innerHTML = `<img src="${images[imageIdx]}"/>`;
+}
+export default setSharkImage;
